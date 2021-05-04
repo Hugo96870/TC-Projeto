@@ -55,11 +55,26 @@ second 6__ _6_ rrs second
 second 7__ _7_ rrs second
 second 8__ _8_ rrs second
 second 9__ _9_ rrs second
-second ;__ _;_ rrs second
+second ;__ _;_ rrs secondAux
 second L__ _L_ rrs second
 second S__ _S_ rrs second
 second R__ _R_ rrs second
 second ___ ___ lls backsecond
+
+secondAux Q__ _Q_ rrs secondAux
+secondAux 0__ 01_ srs secondAuxAux
+secondAux 1__ _1_ rrs second
+secondAux 2__ _2_ rrs second
+secondAux 3__ _3_ rrs second
+secondAux 4__ _4_ rrs second
+secondAux 5__ _5_ rrs second
+secondAux 6__ _6_ rrs second
+secondAux 7__ _7_ rrs second
+secondAux 8__ _8_ rrs second
+secondAux 9__ _9_ rrs second
+
+secondAuxAux 0__ _0_ rrs secondAuxAux
+secondAuxAux A__ _A_ rrs second
 
 backsecond **_ **_ lls backsecond
 backsecond *__ *__ lss backsecond
