@@ -1,0 +1,46 @@
+do N_ NN rr do
+do Y_ YQ rr next
+do Q_ QQ rr do
+do A_ AA rr do
+do 0_ 00 rr do
+do 1_ 11 rr do
+do 2_ 22 rr do
+do 3_ 33 rr do
+do 4_ 44 rr do
+do 5_ 55 rr do
+do 6_ 66 rr do
+do 7_ 77 rr do
+do 8_ 88 rr do
+do 9_ 99 rr do
+do *_ ** rr do
+do ;_ ;; rr do
+do L_ LL rr do
+do S_ SS rr do
+do R_ RR rr do
+do __ __ *l back
+
+back __ __ *r halt-accept
+back _* _* *l back
+
+next 
+
+next2 Y_ YY rr next2
+next2 N_ NN rr next2
+next2 Q_ QQ rr next2
+next2 A_ AA rr next2
+next2 0_ 00 rr next2
+next2 1_ 11 rr next2
+next2 2_ 22 rr next2
+next2 3_ 33 rr next2
+next2 4_ 44 rr next2
+next2 5_ 55 rr next2
+next2 6_ 66 rr next2
+next2 7_ 77 rr next2
+next2 8_ 88 rr next2
+next2 9_ 99 rr next2
+next2 *_ ** rr next2
+next2 ;_ ;; rr next2
+next2 L_ LL rr next2
+next2 S_ SS rr next2
+next2 R_ RR rr next2
+next2 __ __ *l back
