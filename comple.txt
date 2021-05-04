@@ -1,0 +1,48 @@
+do N____ N____ rssss do
+do Y____ Y____ rrsss first
+do Q____ Q____ rssss do
+do A____ A____ rssss do
+do 0____ 0____ rssss do
+do 1____ 1____ rssss do
+do 2____ 2____ rssss do
+do 3____ 3____ rssss do
+do 4____ 4____ rssss do
+do 5____ 5____ rssss do
+do 6____ 6____ rssss do
+do 7____ 7____ rssss do
+do 8____ 8____ rssss do
+do 9____ 9____ rssss do
+do ;____ ;____ rssss do
+do L____ L____ rssss do
+do S____ S____ rssss do
+do R____ R____ rssss do
+do $____ $____ rssss auxiliar2
+do  ___ **l back
+
+second Q____ QQ___ rrsss second
+second N____ NN___ rrsss second
+second Y____ YY___ rrsss second
+second A____ AA___ rrsss second
+second 0____ 00___ rrsss second
+second 1____ 11___ rrsss second
+second 2____ 22___ rrsss second
+second 3____ 33___ rrsss second
+second 4____ 44___ rrsss second
+second 5____ 55___ rrsss second
+second 6____ 66___ rrsss second
+second 7____ 77___ rrsss second
+second 8____ 88___ rrsss second
+second 9____ 99___ rrsss second
+second ;____ ;;___ rrsss second
+second L____ LL___ rrsss second
+second S____ SS___ rrsss second
+second R____ RR___ rrsss second
+second _____ _____ llsss backsecond
+
+backsecond **___ **___ llsss backsecond
+backsecond *____ *____ lssss backsecond
+backsecond _____ _____ rrsss compara
+
+compara QQ___ QQ___ rrsss compara
+compara 00___ 00___ rrsss compara
+compara 0A___ 0A___ sssss 
