@@ -1,5 +1,5 @@
 do N____ N____ rssss do
-do Y____ Y____ rrsss first
+do Y____ Y____ rrsss do
 do Q____ Q____ rssss do
 do A____ A____ rssss do
 do 0____ 0____ rssss do
@@ -16,15 +16,32 @@ do ;____ ;____ rssss do
 do L____ L____ rssss do
 do S____ S____ rssss do
 do R____ R____ rssss do
-do $____ $____ rssss auxiliar2
-do  ___ **l back
+do $____ $____ rssss second
+
+back _____ _____ rrrrr third
+back *____ *____ lssss back
+back _*___ _*___ slsss back
+back __*__ __*__ sslss back
+back ___*_ ___*_ sssls back
+back **___ **___ llsss back
+back *_*__ *_*__ lslss back
+back *__*_ *__*_ lssls back
+back _**__ _**__ sllss back
+back _*_*_ _*_*_ slsls back
+back __**_ __**_ sslls back
+back ***__ ***__ lllss back
+back **_*_ **_*_ llsls back
+back *_**_ *_**_ lslls back
+back _***_ _***_ sllls back
+back ***** ***** lllll back
+
 
 second Q____ QQ___ rrsss second
 second N____ NN___ rrsss second
 second Y____ YY___ rrsss second
 second A____ AA___ rrsss second
 second 0____ 00___ rrsss second
-second 1____ 11___ rrsss second
+second 1____ 11___ rrsss second       
 second 2____ 22___ rrsss second
 second 3____ 33___ rrsss second
 second 4____ 44___ rrsss second
@@ -44,5 +61,53 @@ backsecond *____ *____ lssss backsecond
 backsecond _____ _____ rrsss compara
 
 compara QQ___ QQ___ rrsss compara
-compara 00___ 00___ rrsss compara
-compara 0A___ 0A___ sssss 
+compara 00___ 00___ rrsss compara                                     
+compara AA___ AA___ rrsss step2
+compara 0A___ 0A___ sssss fix2                                         
+compara A0___ A0___ sssss fix1                                         
+                                                                       
+fix1 **___ **___ llsss fix1
+fix1 _____ _____ rrsss fix1aux
+
+fix1aux QQ___ QQQ__ rrrss fix1aux
+fix1aux 00___ 000__ rrrss fix1aux
+fix1aux A0___ A00__ srrss fix1aux
+fix1uax A1___ A10__ srrss fix1aux
+fix1aux A2___ A20__ srrss fix1aux
+fix1aux A3___ A30__ srrss fix1aux
+fix1aux A4___ A40__ srrss fix1aux
+fix1aux A5___ A50__ srrss fix1aux
+fix1aux A6___ A60__ srrss fix1aux
+fix1aux A7___ A70__ srrss fix1aux
+fix1aux A8___ A80__ srrss fix1aux
+fix1aux A9___ A90__ srrss fix1aux
+fix1aux AA___ AAA__ rrrss copy1
+fix1aux Y0___ Y0Y__ srrss fix1aux
+fix1aux Y1___ Y1Y__ srrss fix1aux
+fix1aux Y2___ Y2Y__ srrss fix1aux
+fix1aux Y3___ Y3Y__ srrss fix1aux
+fix1aux Y4___ Y4Y__ srrss fix1aux
+fix1aux Y5___ Y5Y__ srrss fix1aux
+fix1aux Y6___ Y6Y__ srrss fix1aux
+fix1aux Y7___ Y7Y__ srrss fix1aux
+fix1aux Y8___ Y8Y__ srrss fix1aux
+fix1aux Y9___ Y9Y__ srrss fix1aux
+fix1aux YA___ YA___ rssss fix1aux
+
+
+copy1 Q*___ Q*Q__ rrrss fix1aux
+copy1 Y*___ Y*Y__ rrrss fix1aux
+copy1 1*___ 1*1__ rrrss copy1
+copy1 2*___ 2*2__ rrrss copy1
+copy1 3*___ 3*3__ rrrss copy1
+copy1 4*___ 4*4__ rrrss copy1
+copy1 5*___ 5*5__ rrrss copy1
+copy1 6*___ 6*6__ rrrss copy1
+copy1 7*___ 7*7__ rrrss copy1
+copy1 8*___ 8*8__ rrrss copy1
+copy1 9*___ 9*9__ rrrss copy1
+copy1 0*___ 0*0__ rrrss copy1
+copy1 R*___ R*R__ rrrss copy1
+copy1 S*___ S*S__ rrrss copy1
+copy1 L*___ L*L__ rrrss copy1
+copy1 $*___ $*___ lllss back
