@@ -111,3 +111,49 @@ copy1 R*___ R*R__ rrrss copy1
 copy1 S*___ S*S__ rrrss copy1
 copy1 L*___ L*L__ rrrss copy1
 copy1 $*___ $*___ lllss back
+
+fix2 **___ **___ llsss fix2
+fix2 _____ _____ rrsss fix2aux
+
+fix2aux QQ___ QQ_Q_ rrsrs fix2aux
+fix2aux 00___ 00_0_ rrsrs fix2aux
+fix2aux 0A___ 0A_0_ rssrs fix2aux
+fix2uax 1A___ 1A_0_ rssrs fix2aux
+fix2aux 2A___ 2A_0_ rssrs fix2aux
+fix2aux 3A___ 3A_0_ rssrs fix2aux
+fix2aux 4A___ 4A_0_ rssrs fix2aux
+fix2aux 5A___ 5A_0_ rssrs fix2aux
+fix2aux 6A___ 6A_0_ rssrs fix2aux
+fix2aux 7A___ 7A_0_ rssrs fix2aux
+fix2aux 8A___ 8A_0_ rssrs fix2aux
+fix2aux 9A___ 9A_0_ rssrs fix2aux
+fix2aux AA___ AA_A_ rrsrs copy2
+fix2aux 0Y___ 0Y_Y_ rssrs fix2aux
+fix2aux 1Y___ 1Y_Y_ rssrs fix2aux
+fix2aux 2Y___ 2Y_Y_ rssrs fix2aux
+fix2aux 3Y___ 3Y_Y_ rssrs fix2aux
+fix2aux 4Y___ 4Y_Y_ rssrs fix2aux
+fix2aux 5Y___ 5Y_Y_ rssrs fix2aux
+fix2aux 6Y___ 6Y_Y_ rssrs fix2aux
+fix2aux 7Y___ 7Y_Y_ rssrs fix2aux
+fix2aux 8Y___ 8Y_Y_ rssrs fix2aux
+fix2aux 9Y___ 9Y_Y_ rssrs fix2aux
+fix2aux AY___ AY___ srsss fix2aux
+
+
+copy2 *Q___ *Q_Q_ rrsrs fix2aux
+copy2 *Y___ *Y_Y_ rrsrs fix2aux
+copy2 *1___ *1_1_ rrsrs copy2
+copy2 *2___ *2_2_ rrsrs copy2
+copy2 *3___ *3_3_ rrsrs copy2
+copy2 *4___ *4_4_ rrsrs copy2
+copy2 *5___ *5_5_ rrsrs copy2
+copy2 *6___ *6_6_ rrsrs copy2
+copy2 *7___ *7_7_ rrsrs copy2
+copy2 *8___ *8_8_ rrsrs copy2
+copy2 *9___ *9_9_ rrsrs copy2
+copy2 *0___ *0_0_ rrsrs copy2
+copy2 *R___ *R_R_ rrsrs copy2
+copy2 *S___ *S_S_ rrsrs copy2
+copy2 *L___ *L_L_ rrsrs copy2
+copy2 *$___ *$___ llsls back
