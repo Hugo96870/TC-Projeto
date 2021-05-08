@@ -92,11 +92,54 @@ fix1aux Y6___ Y6Y__ srrss fix1aux
 fix1aux Y7___ Y7Y__ srrss fix1aux
 fix1aux Y8___ Y8Y__ srrss fix1aux
 fix1aux Y9___ Y9Y__ srrss fix1aux
+fix1aux YN___ YNY__ srrss fix1aux
 fix1aux YA___ YA___ rssss fix1aux
+
+fix1aux 0Y___ 0Y0__ rrrss fix1aux
+fix1aux 1Y___ 1Y1__ rrrss fix1aux
+fix1aux 2Y___ 2Y2__ rrrss fix1aux
+fix1aux 3Y___ 3Y3__ rrrss fix1aux
+fix1aux 4Y___ 4Y4__ rrrss fix1aux
+fix1aux 5Y___ 5Y5__ rrrss fix1aux
+fix1aux 6Y___ 6Y6__ rrrss fix1aux
+fix1aux 7Y___ 7Y7__ rrrss fix1aux
+fix1aux 8Y___ 8Y8__ rrrss fix1aux
+fix1aux 9Y___ 9Y9__ rrrss fix1aux
+fix1aux AY___ AY0__ srrss fix1aux
+fix1aux NY___ NYN__ rrrss fix1auxaux
+
+fix1auxaux NY___ NYN__ rrrss fix1auxaux
+fix1auxaux AY___ AYN__ srrss fix1auxaux
+fix1auxaux AA___ AA___ sssss fix1aux
+
+fix1aux 0N___ 0N0__ rrrss fix1aux
+fix1aux 1N___ 1N1__ rrrss fix1aux
+fix1aux 2N___ 2N2__ rrrss fix1aux
+fix1aux 3N___ 3N3__ rrrss fix1aux
+fix1aux 4N___ 4N4__ rrrss fix1aux
+fix1aux 5N___ 5N5__ rrrss fix1aux
+fix1aux 6N___ 6N6__ rrrss fix1aux
+fix1aux 7N___ 7N7__ rrrss fix1aux
+fix1aux 8N___ 8N8__ rrrss fix1aux
+fix1aux 9N___ 9N9__ rrrss fix1aux
+fix1aux AN___ AN0__ srrss fix1aux
+
+fix1aux N0___ N0N__ srrss fix1aux
+fix1aux N1___ N1N__ srrss fix1aux
+fix1aux N2___ N2N__ srrss fix1aux
+fix1aux N3___ N3N__ srrss fix1aux
+fix1aux N4___ N4N__ srrss fix1aux
+fix1aux N5___ N5N__ srrss fix1aux
+fix1aux N6___ N6N__ srrss fix1aux
+fix1aux N7___ N7N__ srrss fix1aux
+fix1aux N8___ N8N__ srrss fix1aux
+fix1aux N9___ N9N__ srrss fix1aux
+fix1aux NA___ NA___ rssss fix1aux
 
 
 copy1 Q*___ Q*Q__ rrrss fix1aux
 copy1 Y*___ Y*Y__ rrrss fix1aux
+copy1 N*___ N*N__ rrrss fix1aux
 copy1 1*___ 1*1__ rrrss copy1
 copy1 2*___ 2*2__ rrrss copy1
 copy1 3*___ 3*3__ rrrss copy1
@@ -140,9 +183,52 @@ fix2aux 8Y___ 8Y_Y_ rssrs fix2aux
 fix2aux 9Y___ 9Y_Y_ rssrs fix2aux
 fix2aux AY___ AY___ srsss fix2aux
 
+fix2aux 0N___ 0N_N_ rssrs fix2aux
+fix2aux 1N___ 1N_N_ rssrs fix2aux
+fix2aux 2N___ 2N_N_ rssrs fix2aux
+fix2aux 3N___ 3N_N_ rssrs fix2aux
+fix2aux 4N___ 4N_N_ rssrs fix2aux
+fix2aux 5N___ 5N_N_ rssrs fix2aux
+fix2aux 6N___ 6N_N_ rssrs fix2aux
+fix2aux 7N___ 7N_N_ rssrs fix2aux
+fix2aux 8N___ 8N_N_ rssrs fix2aux
+fix2aux 9N___ 9N_N_ rssrs fix2aux
+fix2aux AN___ AN___ srsss fix2aux
+
+fix2aux Y0___ Y0_0_ rrsrs fix2aux
+fix2aux Y1___ Y1_1_ rrsrs fix2aux
+fix2aux Y2___ Y2_2_ rrsrs fix2aux
+fix2aux Y3___ Y3_3_ rrsrs fix2aux
+fix2aux Y4___ Y4_4_ rrsrs fix2aux
+fix2aux Y5___ Y5_5_ rrsrs fix2aux
+fix2aux Y6___ Y6_6_ rrsrs fix2aux
+fix2aux Y7___ Y7_7_ rrsrs fix2aux
+fix2aux Y8___ Y8_8_ rrsrs fix2aux
+fix2aux Y9___ Y9_9_ rrsrs fix2aux
+fix2aux YA___ YA_0_ rssrs fix2aux
+
+fix2aux N0___ N0_0_ rrsrs fix2aux
+fix2aux N1___ N1_1_ rrsrs fix2aux
+fix2aux N2___ N2_2_ rrsrs fix2aux
+fix2aux N3___ N3_3_ rrsrs fix2aux
+fix2aux N4___ N4_4_ rrsrs fix2aux
+fix2aux N5___ N5_5_ rrsrs fix2aux
+fix2aux N6___ N6_6_ rrsrs fix2aux
+fix2aux N7___ N7_7_ rrsrs fix2aux
+fix2aux N8___ N8_8_ rrsrs fix2aux
+fix2aux N9___ N9_9_ rrsrs fix2aux
+fix2aux NA___ NA___ sssss fix2aux
+fix2aux NY___ NY_Y_ rssrs fix2auxaux
+
+fix2auxaux NY___ NY_Y_ rssrs fix2auxaux
+
+fix2auxaux AY___ AY___ srsss fix2auxaux
+fix2auxaux AA___ AA___ sssss fix2aux
+
 
 copy2 *Q___ *Q_Q_ rrsrs fix2aux
 copy2 *Y___ *Y_Y_ rrsrs fix2aux
+copy2 *N___ *N_N_ rrsrs fix2aux
 copy2 *1___ *1_1_ rrsrs copy2
 copy2 *2___ *2_2_ rrsrs copy2
 copy2 *3___ *3_3_ rrsrs copy2
