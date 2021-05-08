@@ -18,22 +18,39 @@ do S____ S____ rssss do
 do R____ R____ rssss do
 do $____ $____ rssss second
 
-back _____ _____ rrrrr third
-back *____ *____ lssss back
-back _*___ _*___ slsss back
-back __*__ __*__ sslss back
-back ___*_ ___*_ sssls back
-back **___ **___ llsss back
-back *_*__ *_*__ lslss back
-back *__*_ *__*_ lssls back
-back _**__ _**__ sllss back
-back _*_*_ _*_*_ slsls back
-back __**_ __**_ sslls back
-back ***__ ***__ lllss back
-back **_*_ **_*_ llsls back
-back *_**_ *_**_ lslls back
-back _***_ _***_ sllls back
-back ***** ***** lllll back
+back1 _____ _____ rrrrs third1
+back1 *____ *____ lssss back1
+back1 _*___ _*___ slsss back1
+back1 __*__ __*__ sslss back1
+back1 ___*_ ___*_ sssls back1
+back1 **___ **___ llsss back1
+back1 *_*__ *_*__ lslss back1
+back1 *__*_ *__*_ lssls back1
+back1 _**__ _**__ sllss back1
+back1 _*_*_ _*_*_ slsls back1
+back1 __**_ __**_ sslls back1
+back1 ***__ ***__ lllss back1
+back1 **_*_ **_*_ llsls back1
+back1 *_**_ *_**_ lslls back1
+back1 _***_ _***_ sllls back1
+back1 ***** ***** lllll back1
+
+back2 _____ _____ rrrrs third2
+back2 *____ *____ lssss back2
+back2 _*___ _*___ slsss back2
+back2 __*__ __*__ sslss back2
+back2 ___*_ ___*_ sssls back2
+back2 **___ **___ llsss back2
+back2 *_*__ *_*__ lslss back2
+back2 *__*_ *__*_ lssls back2
+back2 _**__ _**__ sllss back2
+back2 _*_*_ _*_*_ slsls back2
+back2 __**_ __**_ sslls back2
+back2 ***__ ***__ lllss back2
+back2 **_*_ **_*_ llsls back2
+back2 *_**_ *_**_ lslls back2
+back2 _***_ _***_ sllls back2
+back2 ***** ***** lllll back2
 
 
 second Q____ QQ___ rrsss second
@@ -153,7 +170,7 @@ copy1 0*___ 0*0__ rrrss copy1
 copy1 R*___ R*R__ rrrss copy1
 copy1 S*___ S*S__ rrrss copy1
 copy1 L*___ L*L__ rrrss copy1
-copy1 $*___ $*___ lllss back
+copy1 $*___ $*___ lllss back1
 
 fix2 **___ **___ llsss fix2
 fix2 _____ _____ rrsss fix2aux
@@ -242,4 +259,32 @@ copy2 *0___ *0_0_ rrsrs copy2
 copy2 *R___ *R_R_ rrsrs copy2
 copy2 *S___ *S_S_ rrsrs copy2
 copy2 *L___ *L_L_ rrsrs copy2
-copy2 *$___ *$___ llsls back
+copy2 $*___ $*___ llsls back2
+
+third1 **Y__ **___ sssss change
+third1 **Q__ **Q__ ssrss third1
+third1 **A__ **A__ ssrss third1
+third1 **L__ **L__ ssrss third1
+third1 **R__ **R__ ssrss third1
+third1 **1__ **1__ ssrss third1
+third1 **2__ **2__ ssrss third1
+third1 **3__ **3__ ssrss third1
+third1 **4__ **4__ ssrss third1
+third1 **5__ **5__ ssrss third1
+third1 **6__ **6__ ssrss third1
+third1 **7__ **7__ ssrss third1
+third1 **8__ **8__ ssrss third1
+third1 **9__ **9__ ssrss third1
+third1 **0__ **0__ ssrss third1
+
+change *QY__ *QQ__ srrss change
+change *0Y__ *00__ srrss change
+change *1Y__ *11__ srrss change
+change *2Y__ *22__ srrss change
+change *3Y__ *33__ srrss change
+change *4Y__ *44__ srrss change
+change *5Y__ *55__ srrss change
+change *6Y__ *66__ srrss change
+change *7Y__ *77__ srrss change
+change *8Y__ *88__ srrss change
+change *9Y__ *99__ srrss change
