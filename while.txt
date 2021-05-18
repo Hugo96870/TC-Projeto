@@ -1,0 +1,242 @@
+do Q____ Q____ rssss do
+do 0____ 01___ rrsss do
+do 1____ 11___ rrsss do
+do 2____ 21___ rrsss do
+do 3____ 31___ rrsss do
+do 4____ 41___ rrsss do
+do 5____ 51___ rrsss do
+do 6____ 61___ rrsss do
+do 7____ 71___ rrsss do
+do 8____ 81___ rrsss do
+do 9____ 91___ rrsss do
+do A____ A____ rssss skip
+
+skip $____ $____ rssss do2
+skip *____ *____ rssss skip
+
+do2 Q____ Q____ rssss do2
+do2 0____ 0_1__ rsrss do2
+do2 1____ 1_1__ rsrss do2
+do2 2____ 2_1__ rsrss do2
+do2 3____ 3_1__ rsrss do2
+do2 4____ 4_1__ rsrss do2
+do2 5____ 5_1__ rsrss do2
+do2 6____ 6_1__ rsrss do2
+do2 7____ 7_1__ rsrss do2
+do2 8____ 8_1__ rsrss do2
+do2 9____ 9_1__ rsrss do2
+do2 A____ A____ rllss skip2
+
+skip2 ***__ ***__ lllss skip2
+skip2 **___ **___ llsss skip2
+skip2 *_*__ *_*__ lslss skip2
+skip2 *____ *____ lssss skip2
+skip2 _____ _____ rrrss compare
+
+compare *11__ *11__ srrss compare
+compare *1___ *11__ srrss compare
+compare *_1__ *11__ srrss compare
+compare *____ *____ sllss skip3
+
+skip3 ***__ ***__ sllss skip3
+skip3 *____ *____ srrss copy1
+
+copy1 Q**__ Q**Q_ rssrs copy1aux
+copy1 A**__ A**A_ rssrs copy1
+copy1 R**__ R**R_ rssrs copy1
+copy1 L**__ L**L_ rssrs copy1
+copy1 S**__ S**S_ rssrs copy1
+copy1 ;**__ ;**;_ rssrs copy1
+copy1 Y**__ Y**Y_ rssrs copy1aux
+copy1 N**__ N**N_ rssrs copy1aux
+copy1 $**__ $**$_ rssrs copy2
+copy1 0**__ 0**0_ rssrs copy1
+copy1 1**__ 1**1_ rssrs copy1
+copy1 2**__ 2**2_ rssrs copy1
+copy1 3**__ 3**3_ rssrs copy1
+copy1 4**__ 4**4_ rssrs copy1
+copy1 5**__ 5**5_ rssrs copy1
+copy1 6**__ 6**6_ rssrs copy1
+copy1 7**__ 7**7_ rssrs copy1
+copy1 8**__ 8**8_ rssrs copy1
+copy1 9**__ 9**9_ rssrs copy1
+
+
+
+
+copy1aux 01*** 01*0* rrsrs copy1aux
+copy1aux 11*** 11*1* rrsrs copy1aux
+copy1aux 21*** 21*2* rrsrs copy1aux
+copy1aux 31*** 31*3* rrsrs copy1aux
+copy1aux 41*** 41*4* rrsrs copy1aux
+copy1aux 51*** 51*5* rrsrs copy1aux
+copy1aux 61*** 61*6* rrsrs copy1aux
+copy1aux 71*** 71*7* rrsrs copy1aux
+copy1aux 81*** 81*8* rrsrs copy1aux
+copy1aux 91*** 91*9* rrsrs copy1aux
+copy1aux Y1*** Y1*Y* rrsrs copy1auxY
+copy1aux N1*** N1*N* rrsrs copy1auxN
+copy1aux A1*** A1*0* srsrs copy1aux
+copy1aux A_*** A_*0* slsrs skip4
+
+copy1auxY Y1*** Y1*Y* rrsrs copy1auxY
+copy1auxY A1*** A1*N* srsrs copy1auxY
+copy1auxY A_*** A_*Y* slsrs skip4
+
+copy1auxN N1*** N1*N* rrsrs copy1auxN
+copy1auxN A1*** A1*N* srsrs copy1auxN
+copy1auxN A_*** A_*N* slsrs skip4
+
+skip4 *1*** *1*** slsss skip4
+skip4 *_*** *_*** srsss copy1
+
+copy2 Q**__ Q**Q_ rssrs copy2aux
+copy2 A**__ A**A_ rssrs copy2
+copy2 R**__ R**R_ rssrs copy2
+copy2 L**__ L**L_ rssrs copy2
+copy2 S**__ S**S_ rssrs copy2
+copy2 ;**__ ;**;_ rssrs copy2
+copy2 Y**__ Y**Y_ rssrs copy2aux
+copy2 N**__ N**N_ rssrs copy2aux
+copy2 _**__ _**__ lssls skip6
+copy2 0**__ 0**0_ rssrs copy2
+copy2 1**__ 1**1_ rssrs copy2
+copy2 2**__ 2**2_ rssrs copy2
+copy2 3**__ 3**3_ rssrs copy2
+copy2 4**__ 4**4_ rssrs copy2
+copy2 5**__ 5**5_ rssrs copy2
+copy2 6**__ 6**6_ rssrs copy2
+copy2 7**__ 7**7_ rssrs copy2
+copy2 8**__ 8**8_ rssrs copy2
+copy2 9**__ 9**9_ rssrs copy2
+
+
+copy2aux 01*** 01*0* rrsrs copy2aux
+copy2aux 11*** 11*1* rrsrs copy2aux
+copy2aux 21*** 21*2* rrsrs copy2aux
+copy2aux 31*** 31*3* rrsrs copy2aux
+copy2aux 41*** 41*4* rrsrs copy2aux
+copy2aux 51*** 51*5* rrsrs copy2aux
+copy2aux 61*** 61*6* rrsrs copy2aux
+copy2aux 71*** 71*7* rrsrs copy2aux
+copy2aux 81*** 81*8* rrsrs copy2aux
+copy2aux 91*** 91*9* rrsrs copy2aux
+copy2aux Y1*** Y1*Y* rrsrs copy2auxY
+copy2aux N1*** N1*N* rrsrs copy2auxN
+copy2aux A1*** A1*0* srsrs copy2aux
+copy2aux A_*** A_*1* slsrs skip5
+
+copy2auxY Y1*** Y1*Y* rrsrs copy2auxY
+copy2auxY A_*** A_*Y* slsrs skip5
+copy2auxY A1*** A1*Y* srsrs copy2auxY
+
+copy2auxN N1*** N1*N* rrsrs copy2auxN
+copy2auxN A1*** A1*N* srsrs copy2auxN
+copy2auxN A_*** A_*N* slsrs skip5
+
+skip5 *1*** *1*** slsss skip5
+skip5 *_*** *_*** srsss copy2
+
+skip6 ***** ***** lllll skip6
+skip6 _***_ _***_ sllls skip6
+skip6 *_**_ *_**_ lslls skip6
+skip6 **_*_ **_*_ llsls skip6
+skip6 ***__ ***__ lllss skip6
+skip6 __**_ __**_ sslls skip6
+skip6 _*_*_ _*_*_ slsls skip6
+skip6 _**__ _**__ sllss skip6
+skip6 *__*_ *__*_ lssls skip6
+skip6 *_*__ *_*__ lslss skip6
+skip6 **___ **___ llsss skip6
+skip6 ___*_ ___*_ sssls skip6
+skip6 __*__ __*__ sslss skip6
+skip6 _*___ _*___ slsss skip6
+skip6 *____ *____ lssss skip6
+skip6 _____ _____ rrrrs end1
+
+end1 ***Y* ***YQ sssrr copyY
+end1 ***N* ***NY sssrr end1
+end1 ***R* ***RR sssrr end1
+end1 ***S* ***SS sssrr end1
+end1 ***L* ***LL sssrr end1
+end1 ***A* ***AA sssrr end1
+end1 ***Q* ***QQ sssrr end1
+end1 ***;* ***;; sssrr end1
+end1 ***0* ***00 sssrr end1
+end1 ***1* ***11 sssrr end1
+end1 ***2* ***22 sssrr end1
+end1 ***3* ***33 sssrr end1
+end1 ***4* ***44 sssrr end1
+end1 ***5* ***55 sssrr end1
+end1 ***6* ***66 sssrr end1
+end1 ***7* ***77 sssrr end1
+end1 ***8* ***88 sssrr end1
+end1 ***9* ***99 sssrr end1
+
+end2 ***Y* ***Y* sssls skip8
+end2 ***N* ***NN sssrr end2
+end2 ***R* ***RR sssrr end2
+end2 ***S* ***SS sssrr end2
+end2 ***L* ***LL sssrr end2
+end2 ***A* ***AA sssrr end2
+end2 ***Q* ***QQ sssrr end2
+end2 ***;* ***;; sssrr end2
+end2 ***$* ***$; sssrr end2
+end2 ***0* ***00 sssrr end2
+end2 ***1* ***11 sssrr end2
+end2 ***2* ***22 sssrr end2
+end2 ***3* ***33 sssrr end2
+end2 ***4* ***44 sssrr end2
+end2 ***5* ***55 sssrr end2
+end2 ***6* ***66 sssrr end2
+end2 ***7* ***77 sssrr end2
+end2 ***8* ***88 sssrr end2
+end2 ***9* ***99 sssrr end2
+end2 ***__ ***__ ssssl finalskip
+
+copyY ***$* ***$* sssrs copyYaux
+copyY ***** ***** sssrs copyY
+
+copyYaux ***Q* ***Q* sssrs copyYaux
+copyYaux ***0* ***00 sssrr copyYaux
+copyYaux ***1* ***11 sssrr copyYaux
+copyYaux ***2* ***22 sssrr copyYaux
+copyYaux ***3* ***33 sssrr copyYaux
+copyYaux ***4* ***44 sssrr copyYaux
+copyYaux ***5* ***55 sssrr copyYaux
+copyYaux ***6* ***66 sssrr copyYaux
+copyYaux ***7* ***77 sssrr copyYaux
+copyYaux ***8* ***88 sssrr copyYaux
+copyYaux ***9* ***99 sssrr copyYaux
+copyYaux ***A* ***A* sssls skip7
+
+skip7 ***Y* ***Y* sssrs end2
+skip7 ***** ***** sssls skip7
+
+skip8 ***_* ***_* sssrs copy3
+skip8 ***** ***** sssls skip8
+
+copy3 ***Q_ ***QQ sssrr copy3
+copy3 ***0_ ***00 sssrr copy3
+copy3 ***1_ ***11 sssrr copy3
+copy3 ***2_ ***22 sssrr copy3
+copy3 ***3_ ***33 sssrr copy3
+copy3 ***4_ ***44 sssrr copy3
+copy3 ***5_ ***55 sssrr copy3
+copy3 ***6_ ***66 sssrr copy3
+copy3 ***7_ ***77 sssrr copy3
+copy3 ***8_ ***88 sssrr copy3
+copy3 ***9_ ***99 sssrr copy3
+copy3 ***A_ ***A_ sssrs skip9
+
+skip9 ***$* ***$* sssrs skip10 
+skip9 ***** ***** sssrs skip9
+
+skip10 ***Y* ***Y* sssrs skip11
+skip10 ***** ***** sssrs skip10
+
+skip11 ***Y* ***Y* sssrs skip11
+skip11 ***A_ ***AA sssrr end2
+
+finalskip ***** ***** ssssl finalskip
+finalskip ****_ ****_ ssssr halt-accept
