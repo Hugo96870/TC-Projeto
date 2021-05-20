@@ -109,7 +109,7 @@ copy1aux A1**** A1**0* srssrs copy1aux
 copy1aux A_**** A_**0* slssrs skip4
 
 copy1auxY Y1**** Y1**Y* rrssrs copy1auxY
-copy1auxY A1**** A1**N* srssrs copy1auxY
+copy1auxY A1**** A1**Y* srssrs copy1auxY
 copy1auxY A_**** A_**Y* slssrs skip4
 
 copy1auxN N1**** N1**N* rrssrs copy1auxN
@@ -175,7 +175,7 @@ copy3 S***__ S***S_ rsssrs copy3
 copy3 ;***__ ;***;_ rsssrs copy3
 copy3 Y***__ Y***Y_ rsssrs copy3aux
 copy3 N***__ N***N_ rsssrs copy3aux
-copy3 _***__ _***__ lsssls skip7
+copy3 _***__ _***__ lsssls skip8
 copy3 0***__ 0***0_ rsssrs copy3
 copy3 1***__ 1***1_ rsssrs copy3
 copy3 2***__ 2***2_ rsssrs copy3
@@ -215,116 +215,161 @@ skip7 *1**** *1**** slssss skip7
 skip7 *_**** *_**** srssss copy3
 
 
-BOM ATE AQUI
+skip8 ****** ****** ssssls skip8
+skip8 ****_* ****_* ssssrs end1
 
 
 
+end1 ****Y* ****Y* ssssrs copysecond
+end1 ****N* ****N* ssssrs copythird
+end1 ****R* ****RR ssssrr end1
+end1 ****S* ****SS ssssrr end1
+end1 ****L* ****LL ssssrr end1
+end1 ****A* ****AA ssssrr end1
+end1 ****Q* ****QQ ssssrr end1
+end1 ****;* ****;; ssssrr end1
+end1 ****0* ****00 ssssrr end1
+end1 ****1* ****11 ssssrr end1
+end1 ****2* ****22 ssssrr end1
+end1 ****3* ****33 ssssrr end1
+end1 ****4* ****44 ssssrr end1
+end1 ****5* ****55 ssssrr end1
+end1 ****6* ****66 ssssrr end1
+end1 ****7* ****77 ssssrr end1
+end1 ****8* ****88 ssssrr end1
+end1 ****9* ****99 ssssrr end1
+
+copysecond ****$* ****$* ssssrs copysecondaux
+copysecond ****** ****** ssssrs copysecond
+
+copysecondaux ****0* ****00 ssssrr copysecondaux
+copysecondaux ****1* ****11 ssssrr copysecondaux
+copysecondaux ****2* ****22 ssssrr copysecondaux
+copysecondaux ****3* ****33 ssssrr copysecondaux
+copysecondaux ****4* ****44 ssssrr copysecondaux
+copysecondaux ****5* ****55 ssssrr copysecondaux
+copysecondaux ****6* ****66 ssssrr copysecondaux
+copysecondaux ****7* ****77 ssssrr copysecondaux
+copysecondaux ****8* ****88 ssssrr copysecondaux
+copysecondaux ****9* ****99 ssssrr copysecondaux
+copysecondaux ****Q* ****QQ ssssrr copysecondaux
+copysecondaux ****A* ****A* ssssls skip9
+
+skip9 ****Y* ****Y* ssssrs copysecondsecond
+skip9 ****** ****** ssssls skip9
 
 
-POR FAZER ---»
+copysecondsecond ****N* ****NN ssssrr copysecondsecond
+copysecondsecond ****R* ****RR ssssrr copysecondsecond
+copysecondsecond ****S* ****SS ssssrr copysecondsecond
+copysecondsecond ****L* ****LL ssssrr copysecondsecond
+copysecondsecond ****A* ****AA ssssrr copysecondsecond
+copysecondsecond ****Q* ****QQ ssssrr copysecondsecond
+copysecondsecond ****;* ****;; ssssrr copysecondsecond
+copysecondsecond ****$* ****$; ssssrr copysecondFinal
+copysecondsecond ****0* ****00 ssssrr copysecondsecond
+copysecondsecond ****1* ****11 ssssrr copysecondsecond
+copysecondsecond ****2* ****22 ssssrr copysecondsecond
+copysecondsecond ****3* ****33 ssssrr copysecondsecond
+copysecondsecond ****4* ****44 ssssrr copysecondsecond
+copysecondsecond ****5* ****55 ssssrr copysecondsecond
+copysecondsecond ****6* ****66 ssssrr copysecondsecond
+copysecondsecond ****7* ****77 ssssrr copysecondsecond
+copysecondsecond ****8* ****88 ssssrr copysecondsecond
+copysecondsecond ****9* ****99 ssssrr copysecondsecond
+
+copysecondFinal ****Y* ****YY ssssrr copysecondFinal
+copysecondFinal ****N* ****NN ssssrr copysecondFinal
+copysecondFinal ****R* ****RR ssssrr copysecondFinal
+copysecondFinal ****S* ****SS ssssrr copysecondFinal
+copysecondFinal ****L* ****LL ssssrr copysecondFinal
+copysecondFinal ****A* ****AA ssssrr copysecondFinal
+copysecondFinal ****Q* ****QQ ssssrr copysecondFinal
+copysecondFinal ****;* ****;; ssssrr copysecondFinal
+copysecondFinal ****0* ****00 ssssrr copysecondFinal
+copysecondFinal ****1* ****11 ssssrr copysecondFinal
+copysecondFinal ****2* ****22 ssssrr copysecondFinal
+copysecondFinal ****3* ****33 ssssrr copysecondFinal
+copysecondFinal ****4* ****44 ssssrr copysecondFinal
+copysecondFinal ****5* ****55 ssssrr copysecondFinal
+copysecondFinal ****6* ****66 ssssrr copysecondFinal
+copysecondFinal ****7* ****77 ssssrr copysecondFinal
+copysecondFinal ****8* ****88 ssssrr copysecondFinal
+copysecondFinal ****9* ****99 ssssrr copysecondFinal
+copysecondFinal ****$* ****$* ssssll finalskip
+
+copythird ****$* ****$* ssssrs copythirdauxaux
+copythird ****** ****** ssssrs copythird
+
+copythirdauxaux ****$* ****$* ssssrs copythirdaux
+copythirdauxaux ****** ****** ssssrs copythirdauxaux
+
+copythirdaux ****0* ****00 ssssrr copythirdaux
+copythirdaux ****1* ****11 ssssrr copythirdaux
+copythirdaux ****2* ****22 ssssrr copythirdaux
+copythirdaux ****3* ****33 ssssrr copythirdaux
+copythirdaux ****4* ****44 ssssrr copythirdaux
+copythirdaux ****5* ****55 ssssrr copythirdaux
+copythirdaux ****6* ****66 ssssrr copythirdaux
+copythirdaux ****7* ****77 ssssrr copythirdaux
+copythirdaux ****8* ****88 ssssrr copythirdaux
+copythirdaux ****9* ****99 ssssrr copythirdaux
+copythirdaux ****Q* ****QQ ssssrr copythirdaux
+copythirdaux ****A* ****A* ssssls skip10
+
+skip10 ****$* ****$* ssssrs skip10aux
+skip10 ****** ****** ssssls skip10
+
+skip10aux ****$* ****$* ssssrs skip10auxaux
+skip10aux ****** ****** ssssls skip10aux
+
+skip10auxaux ****N* ****N* ssssrs copythirdthird
+skip10auxaux ****** ****** ssssls skip10auxaux
 
 
+copythirdthird ****N* ****NN ssssrr copythirdthird
+copythirdthird ****R* ****RR ssssrr copythirdthird
+copythirdthird ****S* ****SS ssssrr copythirdthird
+copythirdthird ****L* ****LL ssssrr copythirdthird
+copythirdthird ****A* ****AA ssssrr copythirdthird
+copythirdthird ****Q* ****QQ ssssrr copythirdthird
+copythirdthird ****;* ****;; ssssrr copythirdthird
+copythirdthird ****$* ****$; ssssrr copythirdFinalaux
+copythirdthird ****0* ****00 ssssrr copythirdthird
+copythirdthird ****1* ****11 ssssrr copythirdthird
+copythirdthird ****2* ****22 ssssrr copythirdthird
+copythirdthird ****3* ****33 ssssrr copythirdthird
+copythirdthird ****4* ****44 ssssrr copythirdthird
+copythirdthird ****5* ****55 ssssrr copythirdthird
+copythirdthird ****6* ****66 ssssrr copythirdthird
+copythirdthird ****7* ****77 ssssrr copythirdthird
+copythirdthird ****8* ****88 ssssrr copythirdthird
+copythirdthird ****9* ****99 ssssrr copythirdthird
 
-skip8 ***** ***** lllll skip8
-skip8 _***_ _***_ sllls skip8
-skip8 *_**_ *_**_ lslls skip8
-skip8 **_*_ **_*_ llsls skip8
-skip8 ***__ ***__ lllss skip8
-skip8 __**_ __**_ sslls skip8
-skip8 _*_*_ _*_*_ slsls skip8
-skip8 _**__ _**__ sllss skip8
-skip8 *__*_ *__*_ lssls skip8
-skip8 *_*__ *_*__ lslss skip8
-skip8 **___ **___ llsss skip8
-skip8 ___*_ ___*_ sssls skip8
-skip8 __*__ __*__ sslss skip8
-skip8 _*___ _*___ slsss skip8
-skip8 *____ *____ lssss skip8
-skip8 _____ _____ rrrrs end1
+copythirdFinalaux ****$* ****$* ssssrs copythirdFinal
+copythirdFinalaux ****** ****** ssssrs copythirdFinalaux
 
-end1 ***Y* ***YQ sssrr copyY
-end1 ***N* ***NY sssrr end1
-end1 ***R* ***RR sssrr end1
-end1 ***S* ***SS sssrr end1
-end1 ***L* ***LL sssrr end1
-end1 ***A* ***AA sssrr end1
-end1 ***Q* ***QQ sssrr end1
-end1 ***;* ***;; sssrr end1
-end1 ***0* ***00 sssrr end1
-end1 ***1* ***11 sssrr end1
-end1 ***2* ***22 sssrr end1
-end1 ***3* ***33 sssrr end1
-end1 ***4* ***44 sssrr end1
-end1 ***5* ***55 sssrr end1
-end1 ***6* ***66 sssrr end1
-end1 ***7* ***77 sssrr end1
-end1 ***8* ***88 sssrr end1
-end1 ***9* ***99 sssrr end1
 
-end2 ***Y* ***Y* sssls skip8
-end2 ***N* ***NN sssrr end2
-end2 ***R* ***RR sssrr end2
-end2 ***S* ***SS sssrr end2
-end2 ***L* ***LL sssrr end2
-end2 ***A* ***AA sssrr end2
-end2 ***Q* ***QQ sssrr end2
-end2 ***;* ***;; sssrr end2
-end2 ***$* ***$; sssrr end2
-end2 ***0* ***00 sssrr end2
-end2 ***1* ***11 sssrr end2
-end2 ***2* ***22 sssrr end2
-end2 ***3* ***33 sssrr end2
-end2 ***4* ***44 sssrr end2
-end2 ***5* ***55 sssrr end2
-end2 ***6* ***66 sssrr end2
-end2 ***7* ***77 sssrr end2
-end2 ***8* ***88 sssrr end2
-end2 ***9* ***99 sssrr end2
-end2 ***__ ***__ ssssl finalskip
+copythirdFinal ****Y* ****YY ssssrr copythirdFinal
+copythirdFinal ****N* ****NN ssssrr copythirdFinal
+copythirdFinal ****R* ****RR ssssrr copythirdFinal
+copythirdFinal ****S* ****SS ssssrr copythirdFinal
+copythirdFinal ****L* ****LL ssssrr copythirdFinal
+copythirdFinal ****A* ****AA ssssrr copythirdFinal
+copythirdFinal ****Q* ****QQ ssssrr copythirdFinal
+copythirdFinal ****;* ****;; ssssrr copythirdFinal
+copythirdFinal ****0* ****00 ssssrr copythirdFinal
+copythirdFinal ****1* ****11 ssssrr copythirdFinal
+copythirdFinal ****2* ****22 ssssrr copythirdFinal
+copythirdFinal ****3* ****33 ssssrr copythirdFinal
+copythirdFinal ****4* ****44 ssssrr copythirdFinal
+copythirdFinal ****5* ****55 ssssrr copythirdFinal
+copythirdFinal ****6* ****66 ssssrr copythirdFinal
+copythirdFinal ****7* ****77 ssssrr copythirdFinal
+copythirdFinal ****8* ****88 ssssrr copythirdFinal
+copythirdFinal ****9* ****99 ssssrr copythirdFinal
+copythirdFinal ****_* ****_* ssssll finalskip
 
-copyY ***$* ***$* sssrs copyYaux
-copyY ***** ***** sssrs copyY
 
-copyYaux ***Q* ***Q* sssrs copyYaux
-copyYaux ***0* ***00 sssrr copyYaux
-copyYaux ***1* ***11 sssrr copyYaux
-copyYaux ***2* ***22 sssrr copyYaux
-copyYaux ***3* ***33 sssrr copyYaux
-copyYaux ***4* ***44 sssrr copyYaux
-copyYaux ***5* ***55 sssrr copyYaux
-copyYaux ***6* ***66 sssrr copyYaux
-copyYaux ***7* ***77 sssrr copyYaux
-copyYaux ***8* ***88 sssrr copyYaux
-copyYaux ***9* ***99 sssrr copyYaux
-copyYaux ***A* ***A* sssls skip7
-
-skip7 ***Y* ***Y* sssrs end2
-skip7 ***** ***** sssls skip7
-
-skip8 ***_* ***_* sssrs copy3
-skip8 ***** ***** sssls skip8
-
-copy3 ***Q_ ***QQ sssrr copy3
-copy3 ***0_ ***00 sssrr copy3
-copy3 ***1_ ***11 sssrr copy3
-copy3 ***2_ ***22 sssrr copy3
-copy3 ***3_ ***33 sssrr copy3
-copy3 ***4_ ***44 sssrr copy3
-copy3 ***5_ ***55 sssrr copy3
-copy3 ***6_ ***66 sssrr copy3
-copy3 ***7_ ***77 sssrr copy3
-copy3 ***8_ ***88 sssrr copy3
-copy3 ***9_ ***99 sssrr copy3
-copy3 ***A_ ***A_ sssrs skip9
-
-skip9 ***$* ***$* sssrs skip10 
-skip9 ***** ***** sssrs skip9
-
-skip10 ***Y* ***Y* sssrs skip11
-skip10 ***** ***** sssrs skip10
-
-skip11 ***Y* ***Y* sssrs skip11
-skip11 ***A_ ***AA sssrr end2
-
-finalskip ***** ***** ssssl finalskip
-finalskip ****_ ****_ ssssr halt-accept
+finalskip ****** ****** sssssl finalskip
+finalskip *****_ *****_ sssssr halt-accept
