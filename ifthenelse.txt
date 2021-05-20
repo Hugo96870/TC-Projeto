@@ -296,7 +296,8 @@ copysecondFinal ****6* ****66 ssssrr copysecondFinal
 copysecondFinal ****7* ****77 ssssrr copysecondFinal
 copysecondFinal ****8* ****88 ssssrr copysecondFinal
 copysecondFinal ****9* ****99 ssssrr copysecondFinal
-copysecondFinal ****$* ****$* ssssll finalskip
+copysecondFinal ****$* ****$; ssssrr copysecondFinal
+copysecondFinal ****_* ****_* ssssll finalskip
 
 copythird ****$* ****$* ssssrs copythirdauxaux
 copythird ****** ****** ssssrs copythird
@@ -334,7 +335,7 @@ copythirdthird ****L* ****LL ssssrr copythirdthird
 copythirdthird ****A* ****AA ssssrr copythirdthird
 copythirdthird ****Q* ****QQ ssssrr copythirdthird
 copythirdthird ****;* ****;; ssssrr copythirdthird
-copythirdthird ****$* ****$; ssssrr copythirdFinalaux
+copythirdthird ****$* ****$; ssssrr copysecondFinal
 copythirdthird ****0* ****00 ssssrr copythirdthird
 copythirdthird ****1* ****11 ssssrr copythirdthird
 copythirdthird ****2* ****22 ssssrr copythirdthird
