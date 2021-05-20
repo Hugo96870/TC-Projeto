@@ -80,7 +80,7 @@ copy1aux A1*** A1*0* srsrs copy1aux
 copy1aux A_*** A_*0* slsrs skip4
 
 copy1auxY Y1*** Y1*Y* rrsrs copy1auxY
-copy1auxY A1*** A1*N* srsrs copy1auxY
+copy1auxY A1*** A1*Y* srsrs copy1auxY
 copy1auxY A_*** A_*Y* slsrs skip4
 
 copy1auxN N1*** N1*N* rrsrs copy1auxN
@@ -154,7 +154,7 @@ skip6 _*___ _*___ slsss skip6
 skip6 *____ *____ lssss skip6
 skip6 _____ _____ rrrrs end1
 
-end1 ***Y* ***YQ sssrr copyY
+end1 ***Y* ***Y* sssrs copyY
 end1 ***N* ***NY sssrr end1
 end1 ***R* ***RR sssrr end1
 end1 ***S* ***SS sssrr end1
@@ -172,6 +172,7 @@ end1 ***6* ***66 sssrr end1
 end1 ***7* ***77 sssrr end1
 end1 ***8* ***88 sssrr end1
 end1 ***9* ***99 sssrr end1
+end1 ***$* ***$; sssrr end1
 
 end2 ***Y* ***Y* sssls skip8
 end2 ***N* ***NN sssrr end2
@@ -195,9 +196,49 @@ end2 ***9* ***99 sssrr end2
 end2 ***__ ***__ ssssl finalskip
 
 copyY ***$* ***$* sssrs copyYaux
+copyY ***_* ***_* sssls copyYauxaux
 copyY ***** ***** sssrs copyY
 
-copyYaux ***Q* ***Q* sssrs copyYaux
+copyYauxaux ***Y* ***Y* sssls copyYauxaux1
+copyYauxaux ***** ***** sssls copyYauxaux
+
+copyYauxaux1 ***Y* ***Y* sssls copyYauxaux1
+copyYauxaux1 ***** ***** sssss copyYauxaux2
+
+copyYauxaux2 ***0* ***0* sssrs end2
+copyYauxaux2 ***1* ***1* sssrs end2
+copyYauxaux2 ***2* ***2* sssrs end2
+copyYauxaux2 ***3* ***3* sssrs end2
+copyYauxaux2 ***4* ***4* sssrs end2
+copyYauxaux2 ***5* ***5* sssrs end2
+copyYauxaux2 ***6* ***6* sssrs end2
+copyYauxaux2 ***7* ***7* sssrs end2
+copyYauxaux2 ***8* ***8* sssrs end2
+copyYauxaux2 ***9* ***9* sssrs end2
+
+
+end3 ***Y* ***YY sssrr end3
+end3 ***N* ***NN sssrr end3
+end3 ***R* ***RR sssrr end3
+end3 ***S* ***SS sssrr end3
+end3 ***L* ***LL sssrr end3
+end3 ***A* ***AA sssrr end3
+end3 ***Q* ***QQ sssrr end3
+end3 ***;* ***;; sssrr end3
+end3 ***$* ***$; sssrr end3
+end3 ***0* ***00 sssrr end3
+end3 ***1* ***11 sssrr end3
+end3 ***2* ***22 sssrr end3
+end3 ***3* ***33 sssrr end3
+end3 ***4* ***44 sssrr end3
+end3 ***5* ***55 sssrr end3
+end3 ***6* ***66 sssrr end3
+end3 ***7* ***77 sssrr end3
+end3 ***8* ***88 sssrr end3
+end3 ***9* ***99 sssrr end3
+end3 ***__ ***__ ssssl finalskip
+
+copyYaux ***Q* ***QQ sssrr copyYaux
 copyYaux ***0* ***00 sssrr copyYaux
 copyYaux ***1* ***11 sssrr copyYaux
 copyYaux ***2* ***22 sssrr copyYaux
