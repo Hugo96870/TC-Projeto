@@ -220,8 +220,8 @@ skip8 ****_* ****_* ssssrs end1
 
 
 
-end1 ****Y* ****Y* ssssrs copysecond
-end1 ****N* ****N* ssssrs copythird
+end1 ****Y* ***1W* sssrrs copysecond
+end1 ****N* ***0T* sssrrs copythird
 end1 ****R* ****RR ssssrr end1
 end1 ****S* ****SS ssssrr end1
 end1 ****L* ****LL ssssrr end1
@@ -238,6 +238,14 @@ end1 ****6* ****66 ssssrr end1
 end1 ****7* ****77 ssssrr end1
 end1 ****8* ****88 ssssrr end1
 end1 ****9* ****99 ssssrr end1
+end1 ***1$* ***1$; ssslrr copysecondFinal
+end1 ***0$* ***0$; ssslrr copythirdFinal
+end1 ***_$* ***_$* ssslss end1aux
+end1 ****_* ****_* sssssl finalskip
+
+end1aux ***_$* ***_$* sssssl finalskip
+end1aux ****$* ****$* ssssss end1
+
 
 copysecond ****$* ****$* ssssrs copysecondaux
 copysecond ****** ****** ssssrs copysecond
@@ -255,9 +263,11 @@ copysecondaux ****9* ****99 ssssrr copysecondaux
 copysecondaux ****Q* ****QQ ssssrr copysecondaux
 copysecondaux ****A* ****A* ssssls skip9
 
-skip9 ****Y* ****Y* ssssrs copysecondsecond
+skip9 ****W* ****Y* ssssrs skip9aux
 skip9 ****** ****** ssssls skip9
 
+skip9aux ****Y* ****Y* ssssrs skip9aux
+skip9aux ****** ****** ssssss end1
 
 copysecondsecond ****N* ****NN ssssrr copysecondsecond
 copysecondsecond ****R* ****RR ssssrr copysecondsecond
@@ -296,8 +306,7 @@ copysecondFinal ****6* ****66 ssssrr copysecondFinal
 copysecondFinal ****7* ****77 ssssrr copysecondFinal
 copysecondFinal ****8* ****88 ssssrr copysecondFinal
 copysecondFinal ****9* ****99 ssssrr copysecondFinal
-copysecondFinal ****$* ****$; ssssrr copysecondFinal
-copysecondFinal ****_* ****_* ssssll finalskip
+copysecondFinal ****$* ****$* ssssss end1
 
 copythird ****$* ****$* ssssrs copythirdauxaux
 copythird ****** ****** ssssrs copythird
@@ -321,11 +330,14 @@ copythirdaux ****A* ****A* ssssls skip10
 skip10 ****$* ****$* ssssrs skip10aux
 skip10 ****** ****** ssssls skip10
 
-skip10aux ****$* ****$* ssssrs skip10auxaux
+skip10aux ****$* ****$* ssssls skip10auxaux
 skip10aux ****** ****** ssssls skip10aux
 
-skip10auxaux ****N* ****N* ssssrs copythirdthird
+skip10auxaux ****T* ****N* ssssrs skip10auxauxaux
 skip10auxaux ****** ****** ssssls skip10auxaux
+
+skip10auxauxaux ****N* ****N* ssssrs skip10auxauxaux
+skip10auxauxaux ****** ****** ssssss end1
 
 
 copythirdthird ****N* ****NN ssssrr copythirdthird
