@@ -154,7 +154,7 @@ skip6 _*___ _*___ slsss skip6
 skip6 *____ *____ lssss skip6
 skip6 _____ _____ rrrrs end1
 
-end1 ***Y* ***Y* sssrs copyY
+end1 ***Y* ***T* sssrs copyY
 end1 ***N* ***NY sssrr end1
 end1 ***R* ***RR sssrr end1
 end1 ***S* ***SS sssrr end1
@@ -172,7 +172,9 @@ end1 ***6* ***66 sssrr end1
 end1 ***7* ***77 sssrr end1
 end1 ***8* ***88 sssrr end1
 end1 ***9* ***99 sssrr end1
-end1 ***$* ***$; sssrr end1
+end1 ***$* ***$; sssrr end2
+
+
 
 end2 ***Y* ***Y* sssls skip8
 end2 ***N* ***NN sssrr end2
@@ -251,8 +253,11 @@ copyYaux ***8* ***88 sssrr copyYaux
 copyYaux ***9* ***99 sssrr copyYaux
 copyYaux ***A* ***A* sssls skip7
 
-skip7 ***Y* ***Y* sssrs end2
+skip7 ***T* ***Y* sssrs skip7aux
 skip7 ***** ***** sssls skip7
+
+skip7aux ***Y* ***Y* sssrs skip7aux
+skip7aux ***A* ***AA sssrr end1
 
 skip8 ***_* ***_* sssrs copy3
 skip8 ***** ***** sssls skip8
@@ -273,10 +278,10 @@ copy3 ***A_ ***A_ sssrs skip9
 skip9 ***$* ***$* sssrs skip10 
 skip9 ***** ***** sssrs skip9
 
-skip10 ***Y* ***Y* sssrs skip11
+skip10 ***Y* ***T* sssrs skip11
 skip10 ***** ***** sssrs skip10
 
-skip11 ***Y* ***Y* sssrs skip11
+skip11 ***Y* ***T* sssrs skip11
 skip11 ***A_ ***AA sssrr end2
 
 finalskip ***** ***** ssssl finalskip

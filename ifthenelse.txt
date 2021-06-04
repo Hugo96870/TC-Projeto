@@ -238,9 +238,7 @@ end1 ****6* ****66 ssssrr end1
 end1 ****7* ****77 ssssrr end1
 end1 ****8* ****88 ssssrr end1
 end1 ****9* ****99 ssssrr end1
-end1 ***1$* ***1$; ssslrr copysecondFinal
-end1 ***0$* ***0$; ssslrr copythirdFinal
-end1 ***_$* ***_$* ssslss end1aux
+end1 ****$* ****$* ssssss copythirdFinal
 end1 ****_* ****_* sssssl finalskip
 
 end1aux ***_$* ***_$* sssssl finalskip
@@ -269,44 +267,6 @@ skip9 ****** ****** ssssls skip9
 skip9aux ****Y* ****Y* ssssrs skip9aux
 skip9aux ****** ****** ssssss end1
 
-copysecondsecond ****N* ****NN ssssrr copysecondsecond
-copysecondsecond ****R* ****RR ssssrr copysecondsecond
-copysecondsecond ****S* ****SS ssssrr copysecondsecond
-copysecondsecond ****L* ****LL ssssrr copysecondsecond
-copysecondsecond ****A* ****AA ssssrr copysecondsecond
-copysecondsecond ****Q* ****QQ ssssrr copysecondsecond
-copysecondsecond ****;* ****;; ssssrr copysecondsecond
-copysecondsecond ****$* ****$; ssssrr copysecondFinal
-copysecondsecond ****0* ****00 ssssrr copysecondsecond
-copysecondsecond ****1* ****11 ssssrr copysecondsecond
-copysecondsecond ****2* ****22 ssssrr copysecondsecond
-copysecondsecond ****3* ****33 ssssrr copysecondsecond
-copysecondsecond ****4* ****44 ssssrr copysecondsecond
-copysecondsecond ****5* ****55 ssssrr copysecondsecond
-copysecondsecond ****6* ****66 ssssrr copysecondsecond
-copysecondsecond ****7* ****77 ssssrr copysecondsecond
-copysecondsecond ****8* ****88 ssssrr copysecondsecond
-copysecondsecond ****9* ****99 ssssrr copysecondsecond
-
-copysecondFinal ****Y* ****YY ssssrr copysecondFinal
-copysecondFinal ****N* ****NN ssssrr copysecondFinal
-copysecondFinal ****R* ****RR ssssrr copysecondFinal
-copysecondFinal ****S* ****SS ssssrr copysecondFinal
-copysecondFinal ****L* ****LL ssssrr copysecondFinal
-copysecondFinal ****A* ****AA ssssrr copysecondFinal
-copysecondFinal ****Q* ****QQ ssssrr copysecondFinal
-copysecondFinal ****;* ****;; ssssrr copysecondFinal
-copysecondFinal ****0* ****00 ssssrr copysecondFinal
-copysecondFinal ****1* ****11 ssssrr copysecondFinal
-copysecondFinal ****2* ****22 ssssrr copysecondFinal
-copysecondFinal ****3* ****33 ssssrr copysecondFinal
-copysecondFinal ****4* ****44 ssssrr copysecondFinal
-copysecondFinal ****5* ****55 ssssrr copysecondFinal
-copysecondFinal ****6* ****66 ssssrr copysecondFinal
-copysecondFinal ****7* ****77 ssssrr copysecondFinal
-copysecondFinal ****8* ****88 ssssrr copysecondFinal
-copysecondFinal ****9* ****99 ssssrr copysecondFinal
-copysecondFinal ****$* ****$* ssssss end1
 
 copythird ****$* ****$* ssssrs copythirdauxaux
 copythird ****** ****** ssssrs copythird
@@ -340,25 +300,6 @@ skip10auxauxaux ****N* ****N* ssssrs skip10auxauxaux
 skip10auxauxaux ****** ****** ssssss end1
 
 
-copythirdthird ****N* ****NN ssssrr copythirdthird
-copythirdthird ****R* ****RR ssssrr copythirdthird
-copythirdthird ****S* ****SS ssssrr copythirdthird
-copythirdthird ****L* ****LL ssssrr copythirdthird
-copythirdthird ****A* ****AA ssssrr copythirdthird
-copythirdthird ****Q* ****QQ ssssrr copythirdthird
-copythirdthird ****;* ****;; ssssrr copythirdthird
-copythirdthird ****$* ****$; ssssrr copysecondFinal
-copythirdthird ****0* ****00 ssssrr copythirdthird
-copythirdthird ****1* ****11 ssssrr copythirdthird
-copythirdthird ****2* ****22 ssssrr copythirdthird
-copythirdthird ****3* ****33 ssssrr copythirdthird
-copythirdthird ****4* ****44 ssssrr copythirdthird
-copythirdthird ****5* ****55 ssssrr copythirdthird
-copythirdthird ****6* ****66 ssssrr copythirdthird
-copythirdthird ****7* ****77 ssssrr copythirdthird
-copythirdthird ****8* ****88 ssssrr copythirdthird
-copythirdthird ****9* ****99 ssssrr copythirdthird
-
 copythirdFinalaux ****$* ****$* ssssrs copythirdFinal
 copythirdFinalaux ****** ****** ssssrs copythirdFinalaux
 
@@ -381,6 +322,7 @@ copythirdFinal ****6* ****66 ssssrr copythirdFinal
 copythirdFinal ****7* ****77 ssssrr copythirdFinal
 copythirdFinal ****8* ****88 ssssrr copythirdFinal
 copythirdFinal ****9* ****99 ssssrr copythirdFinal
+copythirdFinal ****$* ****$; ssssrr copythirdFinal
 copythirdFinal ****_* ****_* ssssll finalskip
 
 
